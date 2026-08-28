@@ -23,7 +23,7 @@ Before using the API, make sure you have:
 - A basic understanding of HTTP methods such as GET, POST, PUT and DELETE
 
 
-## Make your first API request
+## Make Your First API Request
 
 The easiest way to test the API is to test the list of products.
 Use the following request:
@@ -43,7 +43,7 @@ https://dummyjson.com/products
 5. The API returns a list of products in JSON format.
 
 
-## Example response
+## Example Response
 
 A successful request returns a response similar to:
 
@@ -64,7 +64,7 @@ A successful request returns a response similar to:
 The response contains information about the products returned by the API.
 
 
-## Understanding the response
+## Understanding The Response
 
 The response is formatted as JSON.
 Some commonly used fields include:
@@ -78,7 +78,7 @@ Some commonly used fields include:
 | Price| Product price|
 
 
-## What's next?
+## What's Next?
 
 Now that you've made the first API request, you can explore the other endpoints. 
 
