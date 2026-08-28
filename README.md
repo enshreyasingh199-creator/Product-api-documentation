@@ -3,7 +3,7 @@
 ## Overview
 
 This project provides documentation for a sample REST API used to manage product information.
-This documentation explains how to retrieve ,search ,update ,create and delete products using HTTP requests.
+This documentation explains how to retrieve, search, update, create and delete products using HTTP requests.
 The API was tested using Postman.
 
 
