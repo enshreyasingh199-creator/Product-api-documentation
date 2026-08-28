@@ -34,10 +34,10 @@ Using this API, you can:
 
 | Method | Purpose |
 |---|---|
-| Get | Retrieve information |
-| Post | Create new product |
-| Put | Update a product |
-| Delete | Delete a product |
+| GET | Retrieve information |
+| POST | Create new product |
+| PUT | Update a product |
+| DELETE | Delete a product |
 
 
 ## API Base URL
