@@ -72,11 +72,11 @@ Some commonly used fields include:
 
 |Field| Description|
 |---|---|
-|id| unique identifier for the product|
-| Title| Name of the product|
-| Description| Description of the product|
-| Category| Product category|
-| Price| Product price|
+|`id`| unique identifier for the product|
+|`Title`| Name of the product|
+|`Description`| Description of the product|
+|`Category`| Product category|
+|`Price`| Product price|
 
 
 ## What's Next?
