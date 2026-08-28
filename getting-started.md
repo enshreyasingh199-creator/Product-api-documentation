@@ -33,18 +33,14 @@ GET https://dummyjson.com/products
 ```
 In Postman:
 
-1  Create a new request.
-
-2  Select ```GET``` as the HTTP method.
-
-3  Enter the following URL:
-   ```text
+1. Create a new request.
+2. Select ```GET``` as the HTTP method.
+3. Enter the following URL:
+```text
 https://dummyjson.com/products
 ```
-
-4 Click **Send**.
-
-5 The API returns a list of products in JSON format.
+4. Click **Send**.
+5. The API returns a list of products in JSON format.
 
 
 ## Example response
