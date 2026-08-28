@@ -42,7 +42,7 @@ https://dummyjson.com/products
 
 No parameters are required for this request.
 
-### Example Request
+### Example Response
 ```JSON
 {
   "products": [
