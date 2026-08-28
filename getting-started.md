@@ -1,7 +1,7 @@
 # Getting Started
 
 This guide explains how to make your first request to the product API.
-The product api is a sample REST API that allows you to retrieve, search, create and delete product information.
+The product api is a sample REST API that allows you to retrieve, search, create, update and delete product information.
 You can test the api using tools such as Postman
 
 
