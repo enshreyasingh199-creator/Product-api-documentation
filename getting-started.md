@@ -41,6 +41,7 @@ https://dummyjson.com/products
 ```
 4. Click **Send**.
 5. The API returns a list of products in JSON format.
+6. Verify that the API returns a `200 OK` response.
 
 
 ## Example Response
