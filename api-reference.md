@@ -183,6 +183,7 @@ GET/products/search
 A successful response returns a list of products matching the keyword.
 
 ```JSON
+{
 "products": [
     {
       "id": 101,
@@ -216,3 +217,173 @@ A successful response returns a list of products matching the keyword.
 |Status Code| Meaning|
 |---|---|
 |`200 OK`| The search was successful|
+
+
+## Add a Product
+
+Creates a new product using the information provided in request body.
+
+### Endpoint
+```text
+POST/producst/add
+```
+
+### Full url
+
+```text
+https://dummyjson.com/products/add
+```
+
+### Request Field
+
+The request body must consist of following of information of the new product
+
+|field| Type| Required| Description|
+|---|---|---|---|
+|`title`|String|Yes|Name of the product|
+|`price`|Number| Yes |Price of the new product|
+|`description`|String| No| Description of the product|
+|`category`| String| No |Category the product belongs to|
+
+### Example request
+
+```JSON
+ "title": "Technical writer laptop",
+  "price": 999,
+  "description": "A sample product for API documentation testing.",
+  "category": "Technology"
+}
+```
+
+### Example response
+
+```JSON
+{
+  "id": 195,
+  "title": "Technical writer laptop",
+  "price": 999,
+  "description": "A sample product for API documentation testing.",
+  "category": "Technology"
+}
+```
+
+### Response Fields
+
+|Field|Type|Description|
+|---|---|---|
+|`id`| Number| Unique identifier assigned to the product|
+|`title`| String| Name of the product|
+|`price`| Number| Price of the product|
+|`description`| String| Description of the product|
+|`category`| String| category the product belongs to|
+
+### HTTP Status code
+
+|Status Code| Meaning|
+|---|---|
+|`201 Created`| The addition of product was successful|
+
+
+## Update a Product
+
+Updates an existing product using its unique product id.
+
+### Endpoint
+
+```text
+PUT /products/{id}
+```
+
+### Full URL
+```text
+https://dummyjson.com/products/{id}
+```
+
+### Path Parameters
+
+|parameter|type|required|description|
+|---|---|---|---|
+|`id`| Integer| Yes| The unique identifier for the product to update|
+
+### Request Body
+
+Provide the fields that you want to update
+
+|field|type| required| description|
+|---|---|---|---|
+|`title`| String| No| Update the name of the product|
+|`price`| Number|No| Update the price of the product|
+
+### Example Request
+
+```JSON
+{
+  "title": "Updated Technical Writer Laptop",
+  "price": 1099
+}
+```
+
+### Example response
+
+```JSON
+{
+  "id": 1,
+  "title": "Updated Technical Writer Laptop",
+  "price": 1099
+}
+```
+
+### HTTP Status Codes
+
+|Status Code| Meaning|
+|---|---|
+|`200 OK`| The product was successfully updated|
+
+
+## Delete a Product
+
+Deletes the product using its unique product id.
+
+### Endpoint
+```text
+DELETE/products/{id}
+```
+
+### Full URL
+```text
+https:/dummyjson.com/products{id}
+```
+
+### Path Parameters
+
+|parameter|type|required|description|
+|---|---|---|---|
+|`id`| Number| Yes| Unique identifier of the prodcut|
+
+### Example request
+```text
+DELETE https://dummyjson.com/products/1
+```
+
+### Example response
+
+```JSON
+{
+  "id": 1,
+  "title": "Essence Mascara Lash Princess",
+  "isDeleted": true,
+  "deletedOn": "2026-08-30T13:46:39.605Z"
+}
+```
+
+### HTTP Status Codes
+
+|Status Code| Meaning|
+|---|---|
+|`200 OK`| The deletion of product was successful|
+
+
+
+
+
+
