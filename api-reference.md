@@ -42,7 +42,16 @@ https://dummyjson.com/products
 
 No parameters are required for this request.
 
+
+### Example request
+```http
+GET https://dummyjson.com/products
+```
+
 ### Example Response
+
+A Successful response returns a list of products.
+
 ```JSON
 {
   "products": [
@@ -79,6 +88,7 @@ No parameters are required for this request.
 |Status Code| Meaning|
 |---|---|
 |`200 OK`| The request was successfull|
+|`500 Internal Server Error`| The server encountered an unexpected error. |
 
 
 
