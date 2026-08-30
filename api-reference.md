@@ -23,6 +23,7 @@ https://dummyjson.com
 | DELETE |`/Products/{id}`| Delete a product |
 
 
+
 ## Get All Products
 
 Retrieves a list of products from the API.
@@ -91,6 +92,7 @@ A Successful response returns a list of products.
 |`500 Internal Server Error`| The server encountered an unexpected error. |
 
 
+
 ## Get a Product
 
 Retrieves a specific product using its unique product ID.
@@ -148,6 +150,7 @@ https://dummyjson.com/products/{id}
 |Status Code| Meaning|
 |---|---|
 |`200 OK`|The product was successfully retrieved.|
+
 
 
 ## Search Product
@@ -219,6 +222,7 @@ A successful response returns a list of products matching the keyword.
 |`200 OK`| The search was successful|
 
 
+
 ## Add a Product
 
 Creates a new product using the information provided in request body.
@@ -284,6 +288,7 @@ The request body must consist of following of information of the new product
 |`201 Created`| The addition of product was successful|
 
 
+
 ## Update a Product
 
 Updates an existing product using its unique product id.
@@ -338,6 +343,7 @@ Provide the fields that you want to update
 |Status Code| Meaning|
 |---|---|
 |`200 OK`| The product was successfully updated|
+
 
 
 ## Delete a Product
