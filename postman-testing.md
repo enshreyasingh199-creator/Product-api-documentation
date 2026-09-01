@@ -92,7 +92,7 @@ The API returned a `200 OK` response and a list of products.
 
 The request returned a `200 OK` response and a JSON response containing product data.
 
-[Get All Products response](images/get-all-products.png)
+![Get All Products response](images/get-all-products.png)
 
 
 ## Get Product By ID
