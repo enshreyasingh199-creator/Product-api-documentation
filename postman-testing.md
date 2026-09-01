@@ -78,7 +78,7 @@ GET https://dummyjson.com/products
 The API should return:
 - A `200 OK` status code.
 - A JSON response containing a `products` list.
-- A product information such as id,title category and price.
+- A product information such as id,title, category and price.
 
 
 ### Actual Result
@@ -89,6 +89,40 @@ The API returned a `200 OK` response and a list of products.
 ### Result
 
 **Pass**
+
+The request returned a `200 OK` response and a JSON response containing product data.
+
+[Get All Products response](images/get-all-products.png)
+
+
+## Get Product By ID
+
+### Endpoint
+
+```text
+GET https://dummyjson.com/products/1
+```
+
+### Test Steps
+
+1. Open Postman.
+2. Select `GET` method.
+3. Enter the endpoint URL.
+4. Click **Send**.
+5. Verify that the response contains the product with ID `1`.
+
+### Expected Result
+
+The API should return a successful `200 OK` response containing the detail of the requested product.
+
+### Actual result
+
+The API returned a `200 OK` response containing a detail of the the product ID `1`, including its title, description, category, price, stock, rating and other product information.
+
+### Screenshot
+
+
+
 
 
 
