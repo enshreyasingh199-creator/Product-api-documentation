@@ -124,6 +124,51 @@ The API returned a `200 OK` response containing a detail of the the product ID `
 ![Get A Product Response](images/get-a-product-img.png)
 
 
+## Search Products
+
+### Test Objective
+
+Verify that the API returns products matching a search keyword and handles searches with no matching results.
+
+### Endpoint
+
+```text
+GET /products/search
+```
+
+### Full URL
+
+```text
+https://dummyjson.com/products/search?q=phone
+```
+
+### Query Parameter
+
+| Parameter | Value | Description |
+|---|---|---|
+| `q` | `phone` | Keyword used to search for matching products. |
+
+### Test Steps
+
+1. Open Postman.
+2. Select the **Search Products** request.
+3. Enter `phone` as the value for the `q` query parameter.
+4. Click **Send**.
+5. Verify that matching products are returned.
+
+### Expected Result
+
+The API should return a `200 OK` response containing one or more products related to the search keyword.
+
+### Actual Result
+
+The API returned a `200 OK` response with products matching the keyword `phone`.
+
+### Screenshot
+
+
+
+
 
 
 
