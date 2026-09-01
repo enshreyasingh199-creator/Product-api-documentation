@@ -121,7 +121,7 @@ The API returned a `200 OK` response containing a detail of the the product ID `
 
 ### Screenshot
 
-
+![Get A Product Response](images/get-a-product-img.png)
 
 
 
